@@ -1,0 +1,163 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ html {
+  font-size: 62.5%;
+} 
+
+body {
+  font-family: 'League Spartan'
+  sans-serif;
+  background-image: url(images/bg-pattern-top-desktop.svg);
+  font-size: 15px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+}
+
+.top h1 {
+  font-size: 4rem;
+  margin-bottom: 2.4rem;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.top p {
+  font-size: 2rem;
+  color: hsl(303, 10%, 53%);
+}
+
+.customer-rating {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F2F2F8;
+  margin-bottom: .8rem;
+  align-items: center;
+  padding: 1.7rem 1.5rem;
+  border-radius: 11px;
+  font-size: .7rem;
+  background-color: hsl(300, 24%, 96%);
+}
+
+.text {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+
+.customer-rating img {
+  margin-right: 1rem;
+}
+
+.ratings-2st {
+  margin-left: 2rem;
+}
+
+.ratings-3st {
+  margin-left: 4rem;
+}
+
+.bottom-ratings {
+  margin-top: 5rem;
+  background-image: url(images/bg-pattern-bottom-desktop.svg);
+}
+
+.rating-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 50rem;
+  height: 25rem;
+  background-color: hsl(300, 43%, 22%);
+  margin-right: 1rem;
+  padding: 2.5rem 1.5rem;
+  border-radius: 11px;
+
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  width: 5rem;
+  height: auto;
+  border-radius: 10rem;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.profile h3 {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 3px;
+}
+
+.profile h5 {
+  font-size: 1.4rem;
+  color: hsl(303, 10%, 53%);
+}
+
+.review p {
+  font-size: 1.8rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 1.4;
+} 
+
+.rating-card-2 {
+  margin-top: 1rem;
+}
+
+.rating-card-3 {
+  margin-top: 2rem;
+}
+
+@media(max-width:375px){
+  .top h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+
+  .top p {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .ratings-2st {
+    margin-left: 0;
+  }
+
+  .ratings-3st {
+    margin-left: 0;
+  }
+
+  .customer-rating {
+    justify-content: center;
+  }
+
+  .rating-card {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  
+}
